@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <CartWidget />
         <h3>Ecommerce</h3>
         <div>
           <button>Camisetas</button>
@@ -12,6 +11,7 @@ const Navbar = () => {
           <button>Buzos</button>
           <button>Accesorios</button>
         </div>
+        <CartWidget />
       </nav>
     </>
   );
